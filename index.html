@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evil Scientist DB</title>
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="icon" type="image/png" href="/src/image/icon.png">
+</head>
+
+<body>
+  <header class="headerTag">
+    <h1>Evil Scientist LAB</h1>
+  </header>
+  <main class="main-section">
+    <form id="scientist-form">
+      <p>
+        <label for="evilScientistName">Name</label>
+        <input type="text" id="evilScientistName">
+      </p>
+      <p>
+        <label for="evilScientistAge">Age</label>
+        <input type="number" id="evilScientistAge">
+      </p>
+      <p>
+        <label for="evilScientistHenchmen">Number of henchmen</label>
+        <input type="number" id="evilScientistHenchmen">
+      </p>
+      <p>
+        <label for="evilScientistDescription">Short description</label>
+        <input type="text" id="evilScientistDescription">
+      </p>
+      <button id="addScientist" type="submit">Add Scientist</button>
+    </form>
+    <section id="list-names"></section>
+    <section id="details"></section>
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
